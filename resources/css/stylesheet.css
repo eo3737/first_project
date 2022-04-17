@@ -1,12 +1,14 @@
 body {
     text-align: center;
-    background-color: #0b1424;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
+    background-image: url("../images/green_cloud_background.jpg");
+    min-height: 100%;
 }
 
 footer {
     text-align: right;
     margin-bottom: 0px;
+    align-items: flex-end;
 }
 
 nav {
@@ -32,4 +34,43 @@ nav {
 
 .home-text-1 {
     font-size: 2rem;
+}
+
+.navigation_button {
+    width: 200px;
+    height: 100px;
+    font-size: 1em;
+    background-color: rgb(16, 27, 68);
+}
+
+a:link {
+    color: rgb(85, 99, 16);
+    transition: color 400ms ease-out;
+    transition: font-size 400ms ease-out;
+}
+
+a:visited {
+    color: rgb(85, 99, 16);
+}
+
+a:hover {
+    color: beige;
+    font-size: 2rem;
+}
+
+a:active {
+    color: rgb(85, 99, 16);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_item4 {
+    justify-content: flex-end;
+}
+
+.main-nav {
+    flex-direction: row;
 }
